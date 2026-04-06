@@ -1,0 +1,9 @@
+string event_type
+string severity
+string description
+---
+bool success
+string response_summary
+---
+string current_step
+int32 progress_percent

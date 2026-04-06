@@ -1,0 +1,9 @@
+yolov8n.pt
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+build/
+install/
+log/
+*.egg-info/

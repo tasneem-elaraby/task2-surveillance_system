@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>smart_surveillance</name>
+  <version>1.0.0</version>
+  <description>
+    Distributed Smart Security Surveillance System using ROS2.
+    8-node pipeline: camera → YOLO detection → depth estimation →
+    scene analysis → event detection → security response → logging → monitoring.
+  </description>
+  <maintainer email="team@example.com">Team</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+
+  <depend>rosidl_default_generators</depend>
+  <depend>action_msgs</depend>
+
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
