@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from surveillance_interfaces/action/SecurityAction.action
+// generated code does not contain a copyright notice
+
+
+module surveillance_interfaces {
+  module action {
+    struct SecurityAction_Goal {
+      string event_type;
+
+      string severity;
+
+      string description;
+    };
+    struct SecurityAction_Result {
+      boolean success;
+
+      string response_summary;
+    };
+    struct SecurityAction_Feedback {
+      string current_step;
+
+      int32 progress_percent;
+    };
+  };
+};

@@ -1,0 +1,13 @@
+{
+  "package_name": "surveillance_interfaces",
+  "output_dir": "/home/menna/task2-surveillance_system/build/surveillance_interfaces/rosidl_generator_type_description/surveillance_interfaces",
+  "idl_tuples": [
+    "/home/menna/task2-surveillance_system/build/surveillance_interfaces/rosidl_adapter/surveillance_interfaces:action/SecurityAction.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

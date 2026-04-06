@@ -1,0 +1,463 @@
+[0.347s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.347s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a8926a67950>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a8926a676e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a8926a676e0>>, mixin_verb=('build',))
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.487s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/menna/task2-surveillance_system'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extension 'ros'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extensions ['cmake', 'python']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extension 'cmake'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extension 'python'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extensions ['python_setup_py']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2) by extension 'python_setup_py'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extensions ['colcon_meta']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extension 'colcon_meta'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extensions ['ros']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extension 'ros'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extensions ['cmake', 'python']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extension 'cmake'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extension 'python'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extensions ['python_setup_py']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets) by extension 'python_setup_py'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extension 'ros'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extensions ['cmake', 'python']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extension 'cmake'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extension 'python'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extensions ['python_setup_py']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples) by extension 'python_setup_py'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extensions ['colcon_meta']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extension 'colcon_meta'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extensions ['ros']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extension 'ros'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extensions ['cmake', 'python']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extension 'cmake'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extension 'python'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extensions ['python_setup_py']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/assets/examples_video) by extension 'python_setup_py'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extension 'colcon_meta'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extensions ['ros']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extension 'ros'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extensions ['cmake', 'python']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extension 'cmake'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extension 'python'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extensions ['python_setup_py']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2) by extension 'python_setup_py'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extension 'ros'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extensions ['cmake', 'python']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/dinov2_layers) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extension 'ros'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extensions ['cmake', 'python']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extension 'cmake'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extension 'python'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extensions ['python_setup_py']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/depth_anything_v2/util) by extension 'python_setup_py'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extensions ['python_setup_py']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extension 'ros'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extensions ['cmake', 'python']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extension 'cmake'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extension 'python'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extensions ['python_setup_py']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/assets) by extension 'python_setup_py'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extension 'ros'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extension 'cmake'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extension 'cmake'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extension 'python'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extensions ['python_setup_py']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits) by extension 'python_setup_py'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extension 'ros'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/hypersim) by extension 'python_setup_py'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/kitti) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extension 'python'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extensions ['python_setup_py']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/dataset/splits/vkitti2) by extension 'python_setup_py'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/dinov2_layers) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extension 'ros'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extensions ['cmake', 'python']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extension 'cmake'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extension 'python'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extensions ['python_setup_py']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/depth_anything_v2/util) by extension 'python_setup_py'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(Depth-Anything-V2/metric_depth/util) by extension 'python_setup_py'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_surveillance) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_surveillance) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_surveillance) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_surveillance) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_surveillance) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_surveillance) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_surveillance) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_surveillance) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_surveillance) by extension 'ros'
+[0.639s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smart_surveillance' with type 'ros.ament_python' and name 'smart_surveillance'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/surveillance_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/surveillance_interfaces) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/surveillance_interfaces) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/surveillance_interfaces) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/surveillance_interfaces) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/surveillance_interfaces) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/surveillance_interfaces) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/surveillance_interfaces) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/surveillance_interfaces) by extension 'ros'
+[0.641s] DEBUG:colcon.colcon_core.package_identification:Package 'src/surveillance_interfaces' with type 'ros.ament_cmake' and name 'surveillance_interfaces'
+[0.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.714s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/menna/task2-surveillance_system/install
+[0.714s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/menna/Distributed-Smart-Security-Surveillance-System-using-ROS2/install
+[0.715s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/menna/Distributed_Smart_Security_Surveillance_System_ws/install
+[0.721s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'surveillance_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'surveillance_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'surveillance_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'surveillance_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'surveillance_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'surveillance_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'surveillance_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'surveillance_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'surveillance_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.874s] DEBUG:colcon.colcon_core.verb:Building package 'surveillance_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/menna/task2-surveillance_system/build/surveillance_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/menna/task2-surveillance_system/install/surveillance_interfaces', 'merge_install': False, 'path': '/home/menna/task2-surveillance_system/src/surveillance_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'smart_surveillance' build argument 'cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'smart_surveillance' build argument 'cmake_target' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'smart_surveillance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'smart_surveillance' build argument 'cmake_clean_cache' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'smart_surveillance' build argument 'cmake_clean_first' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'smart_surveillance' build argument 'cmake_force_configure' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'smart_surveillance' build argument 'ament_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'smart_surveillance' build argument 'catkin_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'smart_surveillance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.878s] DEBUG:colcon.colcon_core.verb:Building package 'smart_surveillance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/menna/task2-surveillance_system/build/smart_surveillance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/menna/task2-surveillance_system/install/smart_surveillance', 'merge_install': False, 'path': '/home/menna/task2-surveillance_system/src/smart_surveillance', 'symlink_install': False, 'test_result_base': None}
+[0.878s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.882s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.883s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/menna/task2-surveillance_system/src/surveillance_interfaces' with build type 'ament_cmake'
+[0.883s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/menna/task2-surveillance_system/src/surveillance_interfaces'
+[0.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.890s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/menna/task2-surveillance_system/build/surveillance_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/menna/Distributed-Smart-Security-Surveillance-System-using-ROS2/install/security_surveillance_system:/home/menna/Distributed_Smart_Security_Surveillance_System_ws/install/security_surveillance_system:/home/menna/task2-surveillance_system/install/smart_surveillance:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/menna/task2-surveillance_system/build/surveillance_interfaces -- -j8 -l8
+[3.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/menna/task2-surveillance_system/build/surveillance_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/menna/Distributed-Smart-Security-Surveillance-System-using-ROS2/install/security_surveillance_system:/home/menna/Distributed_Smart_Security_Surveillance_System_ws/install/security_surveillance_system:/home/menna/task2-surveillance_system/install/smart_surveillance:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/menna/task2-surveillance_system/build/surveillance_interfaces -- -j8 -l8
+[3.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/menna/task2-surveillance_system/build/surveillance_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/menna/Distributed-Smart-Security-Surveillance-System-using-ROS2/install/security_surveillance_system:/home/menna/Distributed_Smart_Security_Surveillance_System_ws/install/security_surveillance_system:/home/menna/task2-surveillance_system/install/smart_surveillance:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/menna/task2-surveillance_system/build/surveillance_interfaces
+[3.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(surveillance_interfaces)
+[3.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/menna/task2-surveillance_system/build/surveillance_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/menna/Distributed-Smart-Security-Surveillance-System-using-ROS2/install/security_surveillance_system:/home/menna/Distributed_Smart_Security_Surveillance_System_ws/install/security_surveillance_system:/home/menna/task2-surveillance_system/install/smart_surveillance:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/menna/task2-surveillance_system/build/surveillance_interfaces
+[3.805s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces' for CMake module files
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces' for CMake config files
+[3.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('surveillance_interfaces', 'cmake_prefix_path')
+[3.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/cmake_prefix_path.ps1'
+[3.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/cmake_prefix_path.dsv'
+[3.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/cmake_prefix_path.sh'
+[3.810s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces/lib'
+[3.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('surveillance_interfaces', 'ld_library_path_lib')
+[3.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/ld_library_path_lib.ps1'
+[3.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/ld_library_path_lib.dsv'
+[3.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/ld_library_path_lib.sh'
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces/bin'
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces/lib/pkgconfig/surveillance_interfaces.pc'
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces/lib/python3.12/site-packages'
+[3.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('surveillance_interfaces', 'pythonpath')
+[3.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/pythonpath.ps1'
+[3.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/pythonpath.dsv'
+[3.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/pythonpath.sh'
+[3.815s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces/bin'
+[3.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/package.ps1'
+[3.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/package.dsv'
+[3.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/package.sh'
+[3.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/package.bash'
+[3.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/package.zsh'
+[3.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/colcon-core/packages/surveillance_interfaces)
+[3.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(surveillance_interfaces)
+[3.820s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces' for CMake module files
+[3.821s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces' for CMake config files
+[3.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('surveillance_interfaces', 'cmake_prefix_path')
+[3.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/cmake_prefix_path.ps1'
+[3.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/cmake_prefix_path.dsv'
+[3.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/cmake_prefix_path.sh'
+[3.823s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces/lib'
+[3.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('surveillance_interfaces', 'ld_library_path_lib')
+[3.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/ld_library_path_lib.ps1'
+[3.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/ld_library_path_lib.dsv'
+[3.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/ld_library_path_lib.sh'
+[3.825s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces/bin'
+[3.825s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces/lib/pkgconfig/surveillance_interfaces.pc'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces/lib/python3.12/site-packages'
+[3.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('surveillance_interfaces', 'pythonpath')
+[3.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/pythonpath.ps1'
+[3.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/pythonpath.dsv'
+[3.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/hook/pythonpath.sh'
+[3.828s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/surveillance_interfaces/bin'
+[3.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/package.ps1'
+[3.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/package.dsv'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/package.sh'
+[3.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/package.bash'
+[3.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/surveillance_interfaces/package.zsh'
+[3.832s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/menna/task2-surveillance_system/install/surveillance_interfaces/share/colcon-core/packages/surveillance_interfaces)
+[3.835s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/menna/task2-surveillance_system/src/smart_surveillance' with build type 'ament_python'
+[3.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_surveillance', 'ament_prefix_path')
+[3.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/smart_surveillance/share/smart_surveillance/hook/ament_prefix_path.ps1'
+[3.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/menna/task2-surveillance_system/install/smart_surveillance/share/smart_surveillance/hook/ament_prefix_path.dsv'
+[3.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/smart_surveillance/share/smart_surveillance/hook/ament_prefix_path.sh'
+[3.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.335s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'smart_surveillance' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[4.336s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'smart_surveillance' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[4.336s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/menna/task2-surveillance_system/src/smart_surveillance'
+[4.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/menna/task2-surveillance_system/src/smart_surveillance': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/menna/task2-surveillance_system/build/smart_surveillance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages:/home/menna/task2-surveillance_system/install/surveillance_interfaces/lib/python3.12/site-packages:/home/menna/Distributed-Smart-Security-Surveillance-System-using-ROS2/install/security_surveillance_system/lib/python3.12/site-packages:/home/menna/Distributed_Smart_Security_Surveillance_System_ws/install/security_surveillance_system/lib/python3.12/site-packages:/home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_surveillance build --build-base /home/menna/task2-surveillance_system/build/smart_surveillance/build install --record /home/menna/task2-surveillance_system/build/smart_surveillance/install.log --single-version-externally-managed
+[8.812s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/smart_surveillance' for CMake module files
+[8.813s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/smart_surveillance' for CMake config files
+[8.814s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/smart_surveillance/lib'
+[8.814s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/smart_surveillance/bin'
+[8.814s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/smart_surveillance/lib/pkgconfig/smart_surveillance.pc'
+[8.814s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages'
+[8.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_surveillance', 'pythonpath')
+[8.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/menna/task2-surveillance_system/src/smart_surveillance' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/menna/task2-surveillance_system/build/smart_surveillance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages:/home/menna/task2-surveillance_system/install/surveillance_interfaces/lib/python3.12/site-packages:/home/menna/Distributed-Smart-Security-Surveillance-System-using-ROS2/install/security_surveillance_system/lib/python3.12/site-packages:/home/menna/Distributed_Smart_Security_Surveillance_System_ws/install/security_surveillance_system/lib/python3.12/site-packages:/home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_surveillance build --build-base /home/menna/task2-surveillance_system/build/smart_surveillance/build install --record /home/menna/task2-surveillance_system/build/smart_surveillance/install.log --single-version-externally-managed
+[8.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/smart_surveillance/share/smart_surveillance/hook/pythonpath.ps1'
+[8.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/menna/task2-surveillance_system/install/smart_surveillance/share/smart_surveillance/hook/pythonpath.dsv'
+[8.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/menna/task2-surveillance_system/install/smart_surveillance/share/smart_surveillance/hook/pythonpath.sh'
+[8.817s] Level 1:colcon.colcon_core.environment:checking '/home/menna/task2-surveillance_system/install/smart_surveillance/bin'
+[8.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_surveillance)
+[8.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/smart_surveillance/share/smart_surveillance/package.ps1'
+[8.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/menna/task2-surveillance_system/install/smart_surveillance/share/smart_surveillance/package.dsv'
+[8.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/smart_surveillance/share/smart_surveillance/package.sh'
+[8.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/smart_surveillance/share/smart_surveillance/package.bash'
+[8.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/menna/task2-surveillance_system/install/smart_surveillance/share/smart_surveillance/package.zsh'
+[8.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/menna/task2-surveillance_system/install/smart_surveillance/share/colcon-core/packages/smart_surveillance)
+[8.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.823s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.835s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.869s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.869s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/menna/task2-surveillance_system/install/local_setup.ps1'
+[8.871s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/menna/task2-surveillance_system/install/_local_setup_util_ps1.py'
+[8.872s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/menna/task2-surveillance_system/install/setup.ps1'
+[8.874s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/menna/task2-surveillance_system/install/local_setup.sh'
+[8.875s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/menna/task2-surveillance_system/install/_local_setup_util_sh.py'
+[8.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/menna/task2-surveillance_system/install/setup.sh'
+[8.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/menna/task2-surveillance_system/install/local_setup.bash'
+[8.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/menna/task2-surveillance_system/install/setup.bash'
+[8.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/menna/task2-surveillance_system/install/local_setup.zsh'
+[8.895s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/menna/task2-surveillance_system/install/setup.zsh'

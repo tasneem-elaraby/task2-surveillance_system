@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "surveillance_interfaces__py",
+		"source" : "/home/menna/task2-surveillance_system/build/surveillance_interfaces/surveillance_interfaces__py"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "package_name": "surveillance_interfaces",
+  "non_idl_tuples": [
+    "/home/menna/task2-surveillance_system/src/surveillance_interfaces:action/SecurityAction.action"
+  ]
+}

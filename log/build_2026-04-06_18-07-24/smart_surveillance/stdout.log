@@ -1,0 +1,57 @@
+running egg_info
+creating ../../build/smart_surveillance/smart_surveillance.egg-info
+writing ../../build/smart_surveillance/smart_surveillance.egg-info/PKG-INFO
+writing dependency_links to ../../build/smart_surveillance/smart_surveillance.egg-info/dependency_links.txt
+writing entry points to ../../build/smart_surveillance/smart_surveillance.egg-info/entry_points.txt
+writing requirements to ../../build/smart_surveillance/smart_surveillance.egg-info/requires.txt
+writing top-level names to ../../build/smart_surveillance/smart_surveillance.egg-info/top_level.txt
+writing manifest file '../../build/smart_surveillance/smart_surveillance.egg-info/SOURCES.txt'
+reading manifest file '../../build/smart_surveillance/smart_surveillance.egg-info/SOURCES.txt'
+writing manifest file '../../build/smart_surveillance/smart_surveillance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/menna/task2-surveillance_system/build/smart_surveillance/build
+creating /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib
+creating /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+copying smart_surveillance/depth_estimator.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+copying smart_surveillance/__init__.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+copying smart_surveillance/event_logger.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+copying smart_surveillance/scene_analyzer.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+copying smart_surveillance/object_detector.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+copying smart_surveillance/security_response.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+copying smart_surveillance/system_monitor.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+copying smart_surveillance/camera_stream.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+copying smart_surveillance/event_manager.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+running install
+running install_lib
+creating /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/depth_estimator.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/__init__.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/event_logger.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/scene_analyzer.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/object_detector.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/security_response.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/system_monitor.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/camera_stream.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/event_manager.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/depth_estimator.py to depth_estimator.cpython-312.pyc
+byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/event_logger.py to event_logger.cpython-312.pyc
+byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/scene_analyzer.py to scene_analyzer.cpython-312.pyc
+byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/object_detector.py to object_detector.cpython-312.pyc
+byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/security_response.py to security_response.cpython-312.pyc
+byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/system_monitor.py to system_monitor.cpython-312.pyc
+byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/camera_stream.py to camera_stream.cpython-312.pyc
+byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/event_manager.py to event_manager.cpython-312.pyc
+running install_egg_info
+Copying ../../build/smart_surveillance/smart_surveillance.egg-info to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance-1.0.0-py3.12.egg-info
+running install_scripts
+Installing camera_stream script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing depth_estimator script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing event_logger script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing event_manager script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing object_detector script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing scene_analyzer script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing security_response script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing system_monitor script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+writing list of installed files to '/home/menna/task2-surveillance_system/build/smart_surveillance/install.log'

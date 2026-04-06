@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/smart_surveillance/smart_surveillance.egg-info/PKG-INFO
+writing dependency_links to ../../build/smart_surveillance/smart_surveillance.egg-info/dependency_links.txt
+writing entry points to ../../build/smart_surveillance/smart_surveillance.egg-info/entry_points.txt
+writing requirements to ../../build/smart_surveillance/smart_surveillance.egg-info/requires.txt
+writing top-level names to ../../build/smart_surveillance/smart_surveillance.egg-info/top_level.txt
+reading manifest file '../../build/smart_surveillance/smart_surveillance.egg-info/SOURCES.txt'
+writing manifest file '../../build/smart_surveillance/smart_surveillance.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+removing '/home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance-1.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/smart_surveillance/smart_surveillance.egg-info to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance-1.0.0-py3.12.egg-info
+running install_scripts
+Installing camera_stream script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing depth_estimator script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing event_logger script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing event_manager script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing object_detector script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing scene_analyzer script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing security_response script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+Installing system_monitor script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+writing list of installed files to '/home/menna/task2-surveillance_system/build/smart_surveillance/install.log'

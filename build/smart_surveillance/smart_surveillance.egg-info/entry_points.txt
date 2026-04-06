@@ -1,0 +1,9 @@
+[console_scripts]
+camera_stream = smart_surveillance.camera_stream:main
+depth_estimator = smart_surveillance.depth_estimator:main
+event_logger = smart_surveillance.event_logger:main
+event_manager = smart_surveillance.event_manager:main
+object_detector = smart_surveillance.object_detector:main
+scene_analyzer = smart_surveillance.scene_analyzer:main
+security_response = smart_surveillance.security_response:main
+system_monitor = smart_surveillance.system_monitor:main

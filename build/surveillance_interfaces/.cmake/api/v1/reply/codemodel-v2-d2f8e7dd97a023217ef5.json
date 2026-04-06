@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b2b5c1d5626227990797.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "surveillance_interfaces__py",
+					"jsonFile" : "directory-surveillance_interfaces__py-a128e45427602dc2f316.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/menna/task2-surveillance_system/build/surveillance_interfaces/surveillance_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "surveillance_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_surveillance_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_surveillance_interfaces_egg-1fc65e090a3d38cf76a9.json",
+					"name" : "ament_cmake_python_build_surveillance_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_surveillance_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_surveillance_interfaces-ed897050777e0a878331.json",
+					"name" : "ament_cmake_python_copy_surveillance_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces-522157e818686f6ee0ff.json",
+					"name" : "surveillance_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces__cpp-5af4933b4c63fe174acf.json",
+					"name" : "surveillance_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "surveillance_interfaces__py::@3b50fd6d079a8859288d",
+					"jsonFile" : "target-surveillance_interfaces__py-888373bb68291a4a63df.json",
+					"name" : "surveillance_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces__rosidl_generator_c-0ac8c501a5a5c2a53b8e.json",
+					"name" : "surveillance_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces__rosidl_generator_py-6a7d4e51a7ea7df49659.json",
+					"name" : "surveillance_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces__rosidl_generator_type_description-45d6dadb050b82e9602f.json",
+					"name" : "surveillance_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces__rosidl_typesupport_c-fbd615eb1e36c2230c26.json",
+					"name" : "surveillance_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces__rosidl_typesupport_cpp-a506d5ce054c8483cc10.json",
+					"name" : "surveillance_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces__rosidl_typesupport_fastrtps_c-ee4e9bfe699f085f26a9.json",
+					"name" : "surveillance_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces__rosidl_typesupport_fastrtps_cpp-54799162aa824f6a575e.json",
+					"name" : "surveillance_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces__rosidl_typesupport_introspection_c-e783201fd8323e8da359.json",
+					"name" : "surveillance_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces__rosidl_typesupport_introspection_cpp-e6ffe6be69de2aabfc69.json",
+					"name" : "surveillance_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces_s__rosidl_typesupport_c-15ed252783acc9968b3c.json",
+					"name" : "surveillance_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces_s__rosidl_typesupport_fastrtps_c-1e2503d8bebf9ce73cda.json",
+					"name" : "surveillance_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces_s__rosidl_typesupport_introspection_c-3b42b75174afbe664e71.json",
+					"name" : "surveillance_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surveillance_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surveillance_interfaces_uninstall-f1538c99e484b29b5590.json",
+					"name" : "surveillance_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bfaaf9b80e822fb7d70a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/menna/task2-surveillance_system/build/surveillance_interfaces",
+		"source" : "/home/menna/task2-surveillance_system/src/surveillance_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,59 @@
+[1.194s] Invoking command in '/home/menna/task2-surveillance_system/src/smart_surveillance': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/menna/task2-surveillance_system/build/smart_surveillance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages:/home/menna/task2-surveillance_system/install/surveillance_interfaces/lib/python3.12/site-packages:/home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages:/home/menna/Distributed-Smart-Security-Surveillance-System-using-ROS2/install/security_surveillance_system/lib/python3.12/site-packages:/home/menna/Distributed_Smart_Security_Surveillance_System_ws/install/security_surveillance_system/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_surveillance build --build-base /home/menna/task2-surveillance_system/build/smart_surveillance/build install --record /home/menna/task2-surveillance_system/build/smart_surveillance/install.log --single-version-externally-managed
+[1.576s] running egg_info
+[1.576s] creating ../../build/smart_surveillance/smart_surveillance.egg-info
+[1.607s] writing ../../build/smart_surveillance/smart_surveillance.egg-info/PKG-INFO
+[1.607s] writing dependency_links to ../../build/smart_surveillance/smart_surveillance.egg-info/dependency_links.txt
+[1.607s] writing entry points to ../../build/smart_surveillance/smart_surveillance.egg-info/entry_points.txt
+[1.607s] writing requirements to ../../build/smart_surveillance/smart_surveillance.egg-info/requires.txt
+[1.608s] writing top-level names to ../../build/smart_surveillance/smart_surveillance.egg-info/top_level.txt
+[1.608s] writing manifest file '../../build/smart_surveillance/smart_surveillance.egg-info/SOURCES.txt'
+[1.672s] reading manifest file '../../build/smart_surveillance/smart_surveillance.egg-info/SOURCES.txt'
+[1.672s] writing manifest file '../../build/smart_surveillance/smart_surveillance.egg-info/SOURCES.txt'
+[1.673s] running build
+[1.673s] running build_py
+[1.673s] creating /home/menna/task2-surveillance_system/build/smart_surveillance/build
+[1.673s] creating /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib
+[1.673s] creating /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+[1.674s] copying smart_surveillance/depth_estimator.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+[1.674s] copying smart_surveillance/__init__.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+[1.674s] copying smart_surveillance/event_logger.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+[1.674s] copying smart_surveillance/scene_analyzer.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+[1.674s] copying smart_surveillance/object_detector.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+[1.674s] copying smart_surveillance/security_response.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+[1.674s] copying smart_surveillance/system_monitor.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+[1.674s] copying smart_surveillance/camera_stream.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+[1.674s] copying smart_surveillance/event_manager.py -> /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance
+[1.675s] running install
+[1.683s] running install_lib
+[1.714s] creating /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+[1.715s] copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/depth_estimator.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+[1.715s] copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/__init__.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+[1.715s] copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/event_logger.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+[1.715s] copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/scene_analyzer.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+[1.715s] copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/object_detector.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+[1.715s] copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/security_response.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+[1.716s] copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/system_monitor.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+[1.716s] copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/camera_stream.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+[1.716s] copying /home/menna/task2-surveillance_system/build/smart_surveillance/build/lib/smart_surveillance/event_manager.py -> /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance
+[1.716s] byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/depth_estimator.py to depth_estimator.cpython-312.pyc
+[1.718s] byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/__init__.py to __init__.cpython-312.pyc
+[1.718s] byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/event_logger.py to event_logger.cpython-312.pyc
+[1.720s] byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/scene_analyzer.py to scene_analyzer.cpython-312.pyc
+[1.721s] byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/object_detector.py to object_detector.cpython-312.pyc
+[1.723s] byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/security_response.py to security_response.cpython-312.pyc
+[1.724s] byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/system_monitor.py to system_monitor.cpython-312.pyc
+[1.725s] byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/camera_stream.py to camera_stream.cpython-312.pyc
+[1.726s] byte-compiling /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance/event_manager.py to event_manager.cpython-312.pyc
+[1.727s] running install_egg_info
+[1.761s] Copying ../../build/smart_surveillance/smart_surveillance.egg-info to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages/smart_surveillance-1.0.0-py3.12.egg-info
+[1.763s] running install_scripts
+[1.969s] Installing camera_stream script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+[1.969s] Installing depth_estimator script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+[1.969s] Installing event_logger script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+[1.969s] Installing event_manager script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+[1.970s] Installing object_detector script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+[1.970s] Installing scene_analyzer script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+[1.970s] Installing security_response script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+[1.970s] Installing system_monitor script to /home/menna/task2-surveillance_system/install/smart_surveillance/lib/smart_surveillance
+[1.970s] writing list of installed files to '/home/menna/task2-surveillance_system/build/smart_surveillance/install.log'
+[2.003s] Invoked command in '/home/menna/task2-surveillance_system/src/smart_surveillance' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/menna/task2-surveillance_system/build/smart_surveillance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages:/home/menna/task2-surveillance_system/install/surveillance_interfaces/lib/python3.12/site-packages:/home/menna/task2-surveillance_system/install/smart_surveillance/lib/python3.12/site-packages:/home/menna/Distributed-Smart-Security-Surveillance-System-using-ROS2/install/security_surveillance_system/lib/python3.12/site-packages:/home/menna/Distributed_Smart_Security_Surveillance_System_ws/install/security_surveillance_system/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_surveillance build --build-base /home/menna/task2-surveillance_system/build/smart_surveillance/build install --record /home/menna/task2-surveillance_system/build/smart_surveillance/install.log --single-version-externally-managed

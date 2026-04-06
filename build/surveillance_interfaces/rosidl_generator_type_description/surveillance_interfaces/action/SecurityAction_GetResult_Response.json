@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "surveillance_interfaces/action/SecurityAction_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "surveillance_interfaces/action/SecurityAction_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "surveillance_interfaces/action/SecurityAction_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_summary",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "surveillance_interfaces/action/SecurityAction_GetResult_Response",
+      "hash_string": "RIHS01_4555cd3e88f3c522464c81368e6ea15b484c84b55a2566bb7230b87c1c3564cb"
+    },
+    {
+      "type_name": "surveillance_interfaces/action/SecurityAction_Result",
+      "hash_string": "RIHS01_c831a12fee738afff3c376959872bb869619aa4d13db62a7c90ee91f518b5f27"
+    }
+  ]
+}
